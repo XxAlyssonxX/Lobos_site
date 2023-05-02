@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.central, ul{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    margin: 30px 17px 30px 20px;
+}
+
+.titulo{
+    font-size: 2rem;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+.centroImg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 960px;
+    font-weight: bold;
+}
+
+.divimg{
+    display: block;
+    margin:10px;
+    justify-content: center;
+}
+
+.divimg img{
+    width: 250px;
+}
+
+.centrotabela{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 960px;
+    font-weight: bold;
+}
+
+.lateral{
+    flex-direction: column;
+}
+
+.imglobo1 img{
+    width: 520px;
+    margin: 10px;
+}
+
+.imglobo2 img{
+    width: 250px;
+    margin: 10px;
+}
+
+.p{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+
+
